@@ -1,4 +1,4 @@
 auto-launchctl
 ==============
 
-This is a script to automate permissions on launchctl plists.
+This is a script to automate permissions and load launchctl plists.
