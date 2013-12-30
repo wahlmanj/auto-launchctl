@@ -9,14 +9,14 @@
 <false/>
 <key>ProgramArguments</key>
 <array>
-<string>/Library/LaunchDaemons/auto.bash</string>
+<string>/usr/bin/auto.bash</string>
 </array>
 <key>RunAtLoad</key>
 <true/>
 <key>UserName</key>
 <string>__USERNAME__</string>
 <key>WorkingDirectory</key>
-<string>/Library/LaunchDaemons</string>
+<string>usr/bin</string>
 <key>ServiceDescription</key>
 <string>launchctl</string>
 </dict>
