@@ -1,10 +1,13 @@
 auto-launchctl
 ==============
 
-This is a script to automate permissions and load launchctl plists for you automatically.
+This is a script to automate permissions on launchctl plists and load launchctl plists for you automatically. To install open terminal and issue these commands after you replace __USERNAME__ with yours in com.launchctl.plist:
 
-You should copy both files to /Library/LaunchDaemons
+sudo su
+cd /auto-launchctl-master (if this is the directory where you downloaded or copied it to)
+chmod +x install.bash
+./install.bash
 
-now you can just drag and drop your plist into /Library/LaunchDaemons and restart you device or run ./auto.bash after you made it executable of course with chmod +x auto.bash
+Now you can just drag and drop your plist into /Library/LaunchDaemons and restart you device or run auto.bash after you install new plists.
 
-Just replace __USERNAME__ with yours in com.launchctl.plist
+
